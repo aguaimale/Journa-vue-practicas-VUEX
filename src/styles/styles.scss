@@ -1,0 +1,28 @@
+$theme-colors: (
+  "primary": #2c3e50,
+  "secondary": #1d6042,
+  "success": #198754,
+  "info": #0dcaf0,
+  "warning": #ffc107,
+  "danger": #dc3545,
+  "light": #f8f9fa,
+  "dark": #343a40,
+
+);
+
+
+@import'node_modules/bootstrap/scss/bootstrap.scss';
+
+.pointer {
+  cursor: pointer;
+}
+
+// Personalizar la apariencia de la barra de desplazamiento (puede variar según el navegador)
+::-webkit-scrollbar {
+  width: 0.5em; // Ancho de la barra de desplazamiento
+  background-color: transparent; // Color de fondo de la barra de desplazamiento
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: transparent; // Color del "pulgar" de la barra de desplazamiento
+}
